@@ -1,0 +1,36 @@
+.hero3 {
+    animation-name: moveup;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveup {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-208px);
+    }
+
+}
+
+.hero2 {
+    animation-name: moveside;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes moveside {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(90px);
+
+    }
+
+}
